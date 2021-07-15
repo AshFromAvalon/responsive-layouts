@@ -34,7 +34,7 @@ body {
 
 .two-col {
   text-align: center;
-  background-color: #2a9aa2;
+  background-color: #136c72d4;
   color: white;
   padding: 3em 0;
 }
@@ -83,4 +83,9 @@ p {
   border: none;
   padding: 0.75em 2em;
   margin: 1em 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #49dae4;
 }
