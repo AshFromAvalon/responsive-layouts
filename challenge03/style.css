@@ -23,19 +23,19 @@ body {
   font-family: Roboto;
 }
 
-.bg-accent {
+.accent-text {
+  color: #87629a;
+}
+
+.three-col {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.two-col {
+  text-align: center;
   background-color: #2a9aa2;
-}
-
-.text-light {
   color: white;
-}
-
-.container--flex {
-  display: flex;
-  width: 80%;
-  max-width: 750px;
-  margin: 0 auto;
   padding: 3em 0;
 }
 
@@ -45,21 +45,21 @@ body {
   margin: 0 auto;
 }
 
-.col {
-  text-align: center;
+.row {
+  display: flex;
 }
 
 .col + .col {
   margin-left: 20px;
 }
 
-.intro {
+.hero {
   color: white;
   padding: 3em 0;
   background: #136c72;
 }
 
-.intro-content {
+.hero__text {
   width: 50%;
 }
 
