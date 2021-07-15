@@ -23,15 +23,39 @@ body {
   font-family: Roboto;
 }
 
+.bg-accent {
+  background-color: #2a9aa2;
+}
+
+.text-light {
+  color: white;
+}
+
+.container--flex {
+  display: flex;
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
 .container {
   width: 80%;
   max-width: 750px;
   margin: 0 auto;
 }
 
+.col {
+  text-align: center;
+}
+
+.col + .col {
+  margin-left: 20px;
+}
+
 .intro {
   color: white;
-  padding: 50px 0;
+  padding: 3em 0;
   background: #136c72;
 }
 
@@ -55,8 +79,8 @@ p {
   font-weight: 700;
   font-size: 0.8rem;
   color: #23424a;
-  border-radius: 50px;
+  border-radius: 100px;
   border: none;
-  padding: 0.5em 2em;
+  padding: 0.75em 2em;
   margin: 1em 0;
 }
