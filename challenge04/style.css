@@ -43,6 +43,42 @@ p {
   font-weight: 300;
 }
 
+header {
+  background-color: #136c72;
+  padding: 1em 0;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item + .nav__item {
+  margin-left: 1em;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.nav__link--button {
+  background-color: white;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
 .section-title {
   color: #136c72;
 }
