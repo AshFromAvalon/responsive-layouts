@@ -1,0 +1,119 @@
+/* 
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+1. Refer to the design specs for the
+   overall layout 
+2. The image should line up with
+   the sidebar in the section
+   below
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 10em 0;
+}
+
+h1,
+h2 {
+  font-family: "Playfair", serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.75rem;
+  max-width: 70%;
+  margin: 0 auto;
+  color: #824936;
+  padding: 0.2em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 1.3125rem;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  color: #824936;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.bg-light {
+  background-color: #f3eed9;
+}
+
+.bg-dark {
+  background-color: #222c2a;
+}
+
+.bg-accent {
+  background-color: #824936;
+}
+
+.bg-dark,
+.bg-accent {
+  color: #f3eed9;
+}
+
+.bg-dark p,
+.bg-accent p {
+  margin-bottom: 1em;
+}
+
+.tagline {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.125;
+  letter-spacing: 0.2em;
+}
+
+.row {
+  display: flex;
+  padding: 4em 0;
+}
+
+.col {
+  flex: 1;
+}
+
+.col + .col {
+  margin-left: 3em;
+}
