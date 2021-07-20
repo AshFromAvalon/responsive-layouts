@@ -49,7 +49,14 @@ header {
 }
 
 .nav {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.logo {
+  margin-right: 1em;
 }
 
 .nav__list {
@@ -57,11 +64,14 @@ header {
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: center;
 }
 
-.nav__item {
-  margin-right: 1em;
+.nav__list--primary {
+  margin: 0 auto;
+}
+
+.nav__item + .nav__item {
+  margin-left: 1em;
 }
 
 .nav__link {
