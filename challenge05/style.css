@@ -29,12 +29,6 @@ section {
 }
 
 @media (min-width: 40em) {
-  header {
-    padding: 7em 0;
-  }
-  section {
-    padding: 4em 0;
-  }
 }
 
 h1,
@@ -53,7 +47,6 @@ h1 {
   font-size: 3.75rem;
   max-width: 70%;
   margin: 0 auto;
-  color: #824936;
   padding: 0.2em;
 }
 
@@ -124,16 +117,22 @@ img {
   flex-direction: column;
 }
 
+.col {
+  flex: 1;
+}
+
 @media (min-width: 40em) {
+  header {
+    padding: 7em 0;
+  }
+  section {
+    padding: 4em 0;
+  }
+
   .row {
     flex-direction: row;
   }
-
   .col + .col {
     margin-left: 3em;
   }
-}
-
-.col {
-  flex: 1;
 }

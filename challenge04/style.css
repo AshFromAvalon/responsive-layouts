@@ -51,7 +51,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-grow: 1;
 }
 
 .logo {
@@ -162,4 +161,37 @@ header {
   text-align: center;
   background-color: #136c72;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav {
+    justify-content: space-evenly;
+  }
+
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding: 2em 0;
+  }
+
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero__img,
+  .sidebar {
+    margin-top: 3em;
+  }
 }
